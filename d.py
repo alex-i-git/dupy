@@ -7,8 +7,6 @@ import cnf
 import os
 from email.mime.text import MIMEText
 
-#me='apollon@localhost'
-#you='apollon@zenon.net'
 s = smtplib.SMTP()
 fs = '/logs'
 st=os.statvfs(fs)
